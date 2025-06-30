@@ -30,10 +30,6 @@ saucetestdemo/
 ├── testng.xml # TestNG suite
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ✅ Features
