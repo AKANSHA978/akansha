@@ -1,12 +1,12 @@
-# 🚀 SauceTestDemo - Selenium TestNG Automation Framework
+#  SauceTestDemo - Selenium TestNG Automation Framework
 
 This is a lightweight, robust, and scalable **Selenium automation framework** built with:
 
-- 🧪 TestNG for test orchestration  
-- 🌐 Selenium WebDriver for browser automation  
-- ⚙️ WebDriverManager for automatic driver management  
-- 📊 ExtentReports for beautiful test reporting  
-- 📄 Log4j for detailed test execution logs  
+-  TestNG for test orchestration  
+-  Selenium WebDriver for browser automation  
+-  WebDriverManager for automatic driver management  
+-  ExtentReports for beautiful test reporting  
+-  Log4j for detailed test execution logs  
 
 The project automates functional flows for the [SauceDemo](https://www.saucedemo.com/) sample web app.
 
@@ -34,11 +34,11 @@ saucetestdemo/
 
 ## ✅ Features
 
-- 🔐 Runs tests in **Chrome Incognito Mode**
-- ✨ Generates dynamic **ExtentReports** after every run
-- 🪵 Logs test steps using **Log4j**
-- 📦 Fully Maven-based
-- 🧱 Scalable and easy to extend with new tests
+-  Runs tests in **Chrome Incognito Mode**
+-  Generates dynamic **ExtentReports** after every run
+-  Logs test steps using **Log4j**
+-  Fully Maven-based
+-  Scalable and easy to extend with new tests
 
 ---
 
@@ -80,9 +80,7 @@ CheckoutTest	(Planned) Proceeds to checkout flow
 📊 Reports
 After test execution, view reports here:
 
-lua
-Copy
-Edit
+
 test-output/ExtentReport.html
 It includes:
 
