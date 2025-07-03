@@ -1,0 +1,7 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.ak.demo:myappiumdemo >----------------------
+[INFO] Building myappiumdemo 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Terminate batch job (Y/N)? 
