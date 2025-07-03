@@ -15,7 +15,7 @@ public class CandidateAPITest {
     @Test
     public void testGetApprovedActivatedCandidates() {
         // Base URI
-        RestAssured.baseURI = "https://recpalapp.co.uk";
+        RestAssured.baseURI = "https://recpalnotifyurl.com";
 
         // API Response
         Response response = RestAssured
