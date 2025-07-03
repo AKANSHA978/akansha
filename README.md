@@ -9,7 +9,44 @@ This is a lightweight, robust, and scalable **Selenium automation framework** bu
 -  Log4j for detailed test execution logs  
 
 The project automates functional flows for the [SauceDemo](https://www.saucedemo.com/) sample web app.
+# Akansha's Automation Framework Collection 🚀
 
+This repository is a collection of various automation testing frameworks and sample projects built using different tools and technologies. It is intended for learning, experimenting, and demonstrating end-to-end automation capabilities across multiple platforms.
+
+---
+
+## 📁 Project Structure
+
+.
+├── automation/ # General Java TestNG-based automation
+├── cucumber/ # Cucumber BDD framework (feature files & step defs)
+├── myappiumdemo/ # Appium mobile automation demo
+├── playwright-tests/ # Playwright framework for UI testing
+├── RestAssured/rest-demo/ # API testing using Rest Assured
+├── src/test/ # Common test resources
+├── test-output/ # TestNG output folder
+├── target/ # Maven build folder
+├── pom.xml # Maven dependencies
+├── testng.xml # TestNG suite configuration
+└── README.md # Project documentation
+
+markdown
+Copy
+Edit
+
+---
+
+## 🔧 Tools & Technologies
+
+- **Java**
+- **Maven**
+- **TestNG**
+- **Cucumber (BDD)**
+- **Rest Assured (API Testing)**
+- **Appium (Mobile Automation)**
+- **Playwright (Web Automation)**
+- **Gherkin**
+- **VS Code / Eclipse**
 ---
 
 ## 📁 Project Structure
