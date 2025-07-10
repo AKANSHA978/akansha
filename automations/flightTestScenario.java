@@ -1,4 +1,4 @@
-package automation;
+package session01;
 
 import java.time.Duration;
 
@@ -53,7 +53,7 @@ public void test1() throws InterruptedException {
 		WebElement complete=driver.findElement(By.xpath("//h1[text()='Thank you for your purchase today!']"));
 		String actualtext= complete.getText();
 		Assert.assertEquals(actualtext,"Thank you for your purchase today!");
-		
+		driver.close();
 		
 		
 }
