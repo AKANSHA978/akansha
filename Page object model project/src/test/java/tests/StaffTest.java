@@ -34,7 +34,7 @@ public class StaffTest {
     @Test
     public void testAddStaff() {
         // Step 1: Login
-        loginPage.login("merchant@gmail.com", "merchant@123");
+        loginPage.login("anshika@gmail.com", "anshika@123");
         loginPage.clickSignIn();
 
         // Step 2: Navigate to Staff and Add Staff
