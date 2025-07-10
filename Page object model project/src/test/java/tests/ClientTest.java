@@ -36,7 +36,7 @@ public class ClientTest {
     @Test
     public void testAddClient() {
         // Login
-        loginPage.login("testingpurpose@gmail.com", "Testpurpose@123");
+        loginPage.login("anshika@gmail.com", "anshika@123");
         loginPage.clickSignIn();
 
         // Add Client
