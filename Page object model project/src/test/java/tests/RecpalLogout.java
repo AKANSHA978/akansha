@@ -18,8 +18,8 @@ public class RecpalLogout {
 	WebDriver driver= new ChromeDriver(options);
 	driver.get("https://recpalapp.co.uk/");
 	driver.findElement(By.xpath("//button[normalize-space()='Admin Login']")).click();
-	driver.findElement(By.id("inputEmail")).sendKeys("merchant@gmail.com");
-	driver.findElement(By.id("inputPassword")).sendKeys("merchant@123");
+	driver.findElement(By.id("inputEmail")).sendKeys("anushka@gmail.com");
+	driver.findElement(By.id("inputPassword")).sendKeys("anushka@123");
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
 	Thread.sleep(3000);
 	
