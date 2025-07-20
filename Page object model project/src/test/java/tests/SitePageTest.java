@@ -34,7 +34,7 @@ public class SitePageTest {
     @Test
     public void testAddSite() {
         // Login
-        loginPage.login("merchant@gmail.com", "merchant@123");
+        loginPage.login("anshika@gmail.com", "anshika@123");
         loginPage.clickSignIn();
 
         // Fill the site form

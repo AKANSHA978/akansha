@@ -21,8 +21,8 @@ import org.openqa.selenium.support.ui.Select;
 	        driver.manage().window().maximize();
 	        driver.get("https://recpalapp.co.uk/");
 	        driver.findElement(By.xpath("//button[@class='me-2 btn btn-outline-secondary']")).click();
-	        driver.findElement(By.id("inputEmail")).sendKeys("merchant@gmail.com");
-	        driver.findElement(By.id("inputPassword")).sendKeys("merchant@123");
+	        driver.findElement(By.id("inputEmail")).sendKeys("anshika@gmail.com");
+	        driver.findElement(By.id("inputPassword")).sendKeys("anshika@123");
 	        driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
 	      
 	    }
