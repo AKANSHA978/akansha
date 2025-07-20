@@ -1,57 +1,56 @@
-#  SauceTestDemo - Selenium TestNG Automation Framework
+# 🚀 Akansha's Automation Framework Collection
 
-This is a lightweight, robust, and scalable **Selenium automation framework** built with:
-
--  TestNG for test orchestration  
--  Selenium WebDriver for browser automation  
--  WebDriverManager for automatic driver management  
--  ExtentReports for beautiful test reporting  
--  Log4j for detailed test execution logs  
-
-The project automates functional flows for the [SauceDemo](https://www.saucedemo.com/) sample web app.
+Welcome to my all-in-one automation repository! This repo contains various automation frameworks and practice scripts developed by me, **Akansha Bhardwaj**, to showcase my expertise in automation testing using tools like **Selenium**, **TestNG**, **RestAssured**, **Cucumber**, **Playwright**, and **Appium**.
 
 ---
 
-## 📁 Project Structure
+## 📁 Folder Structure
 
-saucetestdemo/
-│
-├── src/
-│ ├── main/java/
-│ └── test/java/
-│ ├── base/ # BaseTest (WebDriver setup/teardown)
-│ ├── tests/ # All Test Classes (Login, Cart, etc.)
-│ └── utils/ # LoggerUtil, ExtentReportManager
-│
-├── src/test/resources/
-│ └── log4j.xml # Log4j config
-│
-├── pom.xml # Maven dependencies
-├── testng.xml # TestNG suite
-└── README.md # Project documentation
+| Folder/File               | Description |
+|--------------------------|-------------|
+| `practice/`              | Java-based Selenium TestNG practice scripts for various websites (IRCTC, PolicyBazaar, PrestaShop, etc.) |
+| `Page object model project/` | Page Object Model (POM) framework with structured test cases |
+| `RestAssured/rest-demo/` | API testing with RestAssured |
+| `cucumber/cucumber/`     | BDD framework using Cucumber |
+| `myappiumdemo/`          | Appium mobile automation demo |
+| `playwright-tests/`      | Playwright automation examples |
+| `target/`, `test-output/`| Build/test reports (can be ignored in commits) |
+| `pom.xml`                | Maven configuration file |
+| `testng.xml`             | TestNG suite file |
 
 ---
 
-## ✅ Features
+## 🛠️ Tools & Technologies Used
 
--  Runs tests in **Chrome Incognito Mode**
--  Generates dynamic **ExtentReports** after every run
--  Logs test steps using **Log4j**
--  Fully Maven-based
--  Scalable and easy to extend with new tests
+- **Language**: Java
+- **Build Tool**: Maven
+- **Test Framework**: TestNG, JUnit, Cucumber
+- **API Testing**: RestAssured
+- **Browser Automation**: Selenium WebDriver, Playwright
+- **Mobile Automation**: Appium
+- **CI/CD (optional)**: GitHub Actions / Jenkins
+- **Reporting**: ExtentReports, Allure (can be integrated)
+
+---
+
+## 🧪 Example Test Scenarios
+
+- End-to-End Checkout Flow for PrestaShop
+- Flight Booking & Filters (IRCTC-like)
+- Login/Logout Validations
+- Non-Select Dropdowns, Calendar Handling
+- API Requests with Assertions (GET/POST)
+- Mobile App Login Test (Appium)
+- Cucumber BDD Login Features
 
 ---
 
-## 🚀 Getting Started
+## ✅ How to Run This Project
 
-### 🛠 Prerequisites
-
-- Java 8+
-- Maven
-- Chrome Browser
-- Git
-
----
+```bash
+git clone https://github.com/AKANSHA978/akansha.git
+cd akansha
+mvn clean test
 
 ### 📥 Clone the Repository
 
