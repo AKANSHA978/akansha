@@ -1,0 +1,23 @@
+:: Step 1: Go to Desktop
+cd Desktop
+
+:: Step 2: Create project folder
+mkdir playwright-project
+cd playwright-project
+
+:: Step 3: Initialize Node.js project
+npm init -y
+
+:: Step 4: Install Playwright test framework
+npm install -D @playwright/test
+
+:: Step 5: Install Playwright browsers
+npx playwright install
+
+:: Step 6: Create tests folder and a sample test file
+mkdir tests
+cd tests
+type nul > firstTest.spec.js
+
+:: Step 7: Open the file in VS Code
+code firstTest.spec.js
